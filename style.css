@@ -492,6 +492,27 @@ button:active {
     display: none;
 }
 
+.site-footer {
+    width: 100%;
+    padding: 30px 15px 45px;
+    text-align: center;
+    background: var(--background);
+}
+
+.blog-banner {
+    display: block;
+    width: min(100%, 600px);
+    height: auto;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.blog-banner:hover {
+    transform: translateY(-3px);
+}
+
+
 /* =========================================================
    세로 높이가 작은 PC
 ========================================================= */
