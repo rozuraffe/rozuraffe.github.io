@@ -491,6 +491,9 @@ button:active {
 .country-guide-image.mobile-guide {
     display: none;
 }
+/* =========================================================
+   블로그 바로가기
+========================================================= */
 
 .site-footer {
     width: 100%;
@@ -499,19 +502,31 @@ button:active {
     background: var(--background);
 }
 
+.blog-link {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 .blog-banner {
     display: block;
-    width: min(100%, 600px);
+
+    width: 100%;
+    max-width: 500px;
     height: auto;
+
     margin: 0 auto;
+
     cursor: pointer;
+    border-radius: 14px;
+
     transition: transform 0.15s ease;
 }
 
 .blog-banner:hover {
     transform: translateY(-3px);
 }
-
 
 /* =========================================================
    세로 높이가 작은 PC
